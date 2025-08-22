@@ -46,7 +46,7 @@ jobs:
             BUILD_TRANSLATIONS=false
             DEV_MODE=false
             INCLUDE_CHROMIUM=false
-            PY_VER=3.9
+            PY_VER=3.11
             METADATA_DB=postgresql
             ANALYTICS_DRIVERS=pymssql clickhouse-driver
             PLAYWRIGHT=true
