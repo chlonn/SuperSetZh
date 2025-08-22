@@ -16,9 +16,11 @@
 # limitations under the License.
 #
 
+
+
 set -e
 
-# We need at least 3GB of free mem...
+# We need at least 3GB of free mem   ...
 MIN_MEM_FREE_GB=3
 MIN_MEM_FREE_KB=$(($MIN_MEM_FREE_GB*1000000))
 
