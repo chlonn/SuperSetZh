@@ -251,6 +251,14 @@ RUN --mount=type=cache,target=${SUPERSET_HOME}/.cache/uv \
 RUN uv pip install .[postgres]
 RUN python -m compileall /app/superset
 
+# 追加 PostgreSQL 元数据库驱动、SQL Server 驱动、Excel 上传支持
+RUN --mount=type=cache,target=${SUPERSET_HOME}/.cache/uv \
+    uv pip install --no-cache-dir \
+        psycopg2-binary \
+        pymssql \
+        openpyxl
+
+
 USER superset
 
 ######################################################################
