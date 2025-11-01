@@ -141,7 +141,7 @@
     "emotion-rgba": "0.0.12",
     "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
-    "fuse.js": "^7.0.0",
+    "fuse.js": "^7.1.0",
     "geolib": "^2.0.24",
     "geostyler": "^12.0.2",
     "geostyler-data": "^1.0.0",
